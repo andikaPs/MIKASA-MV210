@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIKASA MV 210</title>
+  <!-- my css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- icon -->
+  <link rel="shortcut icon" href="assets/img/icon.png">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="brand">MIKASA</a>
+
+        <ul>
+          <li><a href="#">Keunggulan</a></li>
+          <li><a href="#">Harga</a></li>
+          <li><a href="#">Detail Produk</a></li>
+        </ul>
+
+        <div class="menu">
+          <input type="checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+
+    <div class="info">
+      <img src="assets/img/header.png" alt="HEADER">
+      <h3>MIKASA <span>MV 210</span></h3>
+    </div>
+  </header>
+
+  <section class="container section">
+    <div class="row">
+      <div class="m6">
+        <h1>Keunggulan</h1>
+      </div>
+      <div class="m6">
+        <p>Produk Asal Jepang Ini Tersedia Dalam Ukuran Nomor Lima Yang Tepat Digunakan Orang Dewasa. Terdiri Dari Dari
+          Delapan
+          Buah Panel Dengan Paduan Warna Biru Dan Kuning Membentuk Pola Pusaran Yang Cantik. Permukaan Yang Lebar Pada
+          Tiap Panel
+          Memungkinkan Kontak Lebih Besar Dengan Tangan Saat Bermain Voli, Khususnya Di Dalam Ruangan. Selain Itu,
+          Produk Ini
+          Merupakan Bola Resmi Federasi Voli Internasional. Productnation</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <img src="assets/img/parallax1.png" alt="">
+  </section>
+
+  <section class="section container">
+    <div class="harga">
+      <h2 class="title">Harga</h2>
+      <p>Rp. 135.000 ,-</p>
+    </div>
+  </section>
+
+  <section>
+    <img src="assets/img/parallax2.png" alt="">
+  </section>
+
+  <section class="container section">
+    <div class="row">
+      <div class="m6">
+        <img src="assets/img/detail_produk.png" alt="">
+      </div>
+
+      <div class="m6">
+        <div class="card">
+          <div class="card-content">
+            <h2>detail produk</h2>
+
+            <div class="box">
+              <div class="row">
+                <div class="m6">
+                  <p>Ukuran</p>
+                  <p>Berat</p>
+                  <p>Diameter</p>
+                  <p>Warna</p>
+                  <p>Merk</p>
+                  <p>Olahraga</p>
+                </div>
+                <div class="m6">
+                  <p>5</p>
+                  <p>260 - 280 g</p>
+                  <p>21 cm</p>
+                  <p>Biru / Kuning</p>
+                  <p>Mikasa MV 210</p>
+                  <p>Voli</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container section">
+      <div class="row">
+        <div class="m3">
+          <div class="sport">
+            <h4>Olahraga</h4>
+            <p>Bola Voli</p>
+            <p>Voli Pantai</p>
+            <p>Futsal</p>
+            <p>Basket</p>
+          </div>
+        </div>
+        <div class="m3">
+          <div class="media">
+            <h4>Media</h4>
+            <p>Video</p>
+            <p>Photo</p>
+            <p>Poster</p>
+          </div>
+        </div>
+        <div class="m3">
+          <h4>Contact</h4>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; dIkaps 2020
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu input');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', () => {
+      nav.classList.toggle('show');
+    });
+  </script>
+</body>
+
+</html>
